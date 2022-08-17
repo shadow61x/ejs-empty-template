@@ -6,7 +6,7 @@ const app = express()
 app.use(express.static("public"));
 app.set('view engine' , 'ejs')
 app.listen(3000, ()=>{
- console.log("Sunucu 3000 portunda çalıştırılıyor");
+ console.log("Sunucu 3000 portunda çalıştırılıyor...");
 })
 
 app.get('/' , (req,res) =>{
