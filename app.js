@@ -1,6 +1,7 @@
-const http = require('http')
-const fs = require('fs')
-const express = require('express')
+const http = require('http');
+const fs = require('fs');
+const express = require('express');
+const ejs = require("ejs");
 
 const app = express()
 app.use(express.static("public"));
